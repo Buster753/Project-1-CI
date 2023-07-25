@@ -1,0 +1,27 @@
+@import url(font-family: 'DM Sans',
+sans-serif;
+font-family: 'DM Serif Display',
+serif;
+);
+
+body {
+    color: black;
+    font-family: DM sans, sans-serif;
+    font-weight: 300;
+}
+
+h1,
+h2 {
+    color: black;
+    font-family: DM Serif Display, serif;
+    
+}
+
+.navbar {
+    background-color: burlywood;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: right
+}
