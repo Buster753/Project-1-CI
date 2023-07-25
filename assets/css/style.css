@@ -14,7 +14,7 @@ h1,
 h2 {
     color: black;
     font-family: DM Serif Display, serif;
-    
+
 }
 
 .navbar {
@@ -23,5 +23,18 @@ h2 {
 }
 
 .navbar a {
-    float: right
+    float: right;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: aqua;
+    color: azure;
+}
+
+.navbar a#navhead {
+    background-color: antiquewhite;
+    float: left
 }
