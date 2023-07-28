@@ -1,13 +1,17 @@
-@import url(font-family: 'DM Sans',
-sans-serif;
-font-family: 'DM Serif Display',
-serif;
-);
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300&family=DM+Serif+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
 body {
     color: black;
     font-family: DM sans, sans-serif;
     font-weight: 300;
+    background-color: red;
+
 }
 
 h1,
@@ -20,6 +24,9 @@ h2 {
 .navbar {
     background-color: burlywood;
     overflow: hidden;
+    display: block;
+    width: 100%;
+    position: fixed;
 }
 
 .navbar a {
@@ -37,4 +44,29 @@ h2 {
 .navbar a#navhead {
     background-color: antiquewhite;
     float: left
+}
+
+#heroimage {
+    height: 100%;
+    width: 50%;
+    object-fit: contain;
+}
+
+#page2image {
+    float: right;
+    height: 80%;
+    width: 30%;
+}
+
+.lefttext {
+    margin: 4%;
+    float: left;
+    text-align: center;
+    padding-left: 30px;
+}
+
+hr {
+    display: block;
+    margin: auto;
+    border: 1.5px solid black;
 }
