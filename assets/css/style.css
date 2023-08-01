@@ -50,10 +50,6 @@ hr {
     padding-right: 12px;
 }
 
-.home-link {
-    background-color: antiquewhite;
-}
-
 .hero-image {
     background-image: url('https://images.pexels.com/photos/951531/pexels-photo-951531.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-position: center;
