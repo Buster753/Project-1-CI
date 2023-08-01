@@ -6,26 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="C:\Users\Buster\style.css">
+    <script src="https://kit.fontawesome.com/c86492803a.js" crossorigin="anonymous"></script>
 
-    <title>Greek Philosofers Club</title>
+    <title>The History Club</title>
 </head>
 
-<body>
+<body id="signup-body">
     <header>
         <nav>
-            <div class="navbar">
-                <a href="index.html" class="active" id="navhead">
-                    <h1> Greek Philosofers Club </h1>
-                </a>
-                <a href="Contact">
-                    <h2> Contact </h2>
-                </a>
-                <a href="signup.html">
-                    <h2> Sign up </h2>
-                </a>
-                <a href="Aboutus">
-                    <h2> About Us </h2>
-                </a>
+            <div class="flex-container menu-holder">
+                <div>
+                    <a href="index.html" class="active" id="navhead">
+                        <h1> The History Club </h1>
+                    </a>
+                </div>
+                <div>
+                    <a href="#about-us">
+                        <h2> About Us </h2>
+                    </a>
+                </div>
+                <div>
+                    <a href="signup.html">
+                        <h2> Sign Up </h2>
+                    </a>
+                </div>
+                <div>
+                    <a href="#contact-us">
+                        <h2> Contact </h2>
+                    </a>
+                </div>
             </div>
         </nav>
     </header>
@@ -33,30 +42,38 @@
 
     <section class="signupform">
         <form method="post" action="https://formdump.codeinstitute.net/">
-            <h2>Sign Up To The Newsletter Here!</h2>
-            <label for="fname">First Name: </label>
-            <input type="text" name="fname" id="fname">
+            <br>
+            <h2 id="signup-h2">Sign Up To The Newsletter Here!</h2>
+            <br>
 
-            <label for="lname">Last Name: </label>
-            <input type="text" name="lname" id="lname">
+            <label for="fname"></label>
+            <input class="input-style" type="text" placeholder="   First Name" name="fname" id="fname" required>
+            <br>
 
-            <label for="email">Email Address: </label>
-            <input type="email" name="email" id="email">
-            <input type="submit" value="Submit">
+            <label for="lname"></label>
+            <input class="input-style" type="text" placeholder="   Last Name" name="lname" id="lname" required>
+            <br>
+
+            <label for="email"></label>
+            <input class="input-style" type="email" placeholder="   Email Address" name="email" id="email" required>
+            <br>
+
+            <input class="submit-button" type="submit" value="Submit">
         </form>
     </section>
 
 
+    <footer class="flex-container footer-signup" id="contact-us">
+        <a href="www.twitter.com" target="_blank"><i class="fa-brands fa-square-twitter fa-3x"
+                style="color: #26a7de;"></i></a>
+        <a href="www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-3x"
+                style="color: #245ab7;"></i></a>
+        <a href="www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook fa-3x"
+                style="color: #4267b2;"></i></a>
 
-
-    <footer id="footer">
-        <p>dsahdaduadbsahubsadh</p>
     </footer>
-
-
 
 
 </body>
 
 </html>
-        
