@@ -10,7 +10,6 @@ body {
     color: black;
     font-family: DM sans, sans-serif;
     font-weight: 300;
-    background-color: white;
 
 }
 
@@ -99,6 +98,30 @@ hr {
 .contact-us {
     height: 150px;
     background-color: #201E20;
+    color: white;
+}
+
+.contact-text {
+    width: 70%;
+    margin-left: 15%;
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact-us {
+    color: white
+}
+
+.contact-us hr {
+    display: block;
+    margin: auto;
+    border: 1.5px solid white;
+    width: 70%;
+}
+
+.contact-us h2 {
+    color: white
 }
 
 .footer-content {
@@ -162,8 +185,8 @@ hr {
     margin-top: 10px;
 }
 
-
-@media (max-width: 950px) {
+/* Small screens and laptops */
+@media (max-width: 1024px) {
     .flex-container {
         flex-direction: column;
     }
@@ -172,7 +195,73 @@ hr {
         display: inline-block;
         margin-top: 2%;
         margin-bottom: 5%;
-        margin-left: 16vw;
+        margin-left: 14vw;
+    }
+
+    .signupform {
+        background-color: #E0A96D;
+        border-radius: 20px;
+        box-sizing: border-box;
+        height: 500px;
+        padding: 10px;
+        width: 350px;
+        text-align: center;
+        margin-top: 12vh;
+        margin-right: 32vw;
+        margin-left: 32vw;
+    }
+
+    .about-text {
+        width: 80%;
+        margin-left: 57%;
+        display: block;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .about-us-image {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 18vh;
+        width: 30%;
+        flex: 30%;
+        margin-right: 18vh;
+    }
+
+    .contact-text {
+        width: 70%;
+        margin-left: 15%;
+        display: block;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+
+}
+
+/* iPads and tablets */
+@media (max-width: 767px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .menu-holder {
+        gap: 1em;
+    }
+
+    .hero-image {
+        height: 300px;
+    }
+
+    .hero-image-text {
+        margin-top: 180px;
+    }
+
+    .fa-brands {
+        display: inline-block;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        margin-left: 14vw;
     }
 
     .signupform {
@@ -184,14 +273,40 @@ hr {
         width: 350px;
         text-align: center;
         margin-top: 10vh;
-        margin-right: 20vw;
-        margin-left: 20vw;
+        margin-right: 27vw;
+        margin-left: 27vw;
+    }
+
+    .about-text {
+        width: 80%;
+        margin-left: 57%;
+        display: block;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .about-us-image {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 17vh;
+        width: 30%;
+        flex: 30%;
+        margin-right: 17vh;
+    }
+
+    .contact-text {
+        width: 70%;
+        margin-left: 15%;
+        display: block;
+        text-align: center;
+        padding-top: 30px;
     }
 
 
 }
 
-@media (max-width: 800px) {
+/* Mobile devices */
+@media (max-width: 479px) {
     .flex-container {
         flex-direction: column;
     }
@@ -219,13 +334,22 @@ hr {
         background-color: #E0A96D;
         border-radius: 20px;
         box-sizing: border-box;
-        height: 500px;
+        height: 420px;
         padding: 10px;
         width: 350px;
         text-align: center;
         margin-top: 10vh;
-        margin-right: 12vw;
-        margin-left: 12vw;
+        margin-right: 13vw;
+        margin-left: 13vw;
+    }
+
+    .about-us-image {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 11vh;
+        width: 30%;
+        flex: 30%;
+        margin-right: 11vh;
     }
 
 
