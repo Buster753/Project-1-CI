@@ -21,7 +21,10 @@ The two pictures used were found using Pexels. A website offering free pictures 
 
 <details>
 <summary>Intial project design using balsamiq wireframes</summary>
+![d](assets/images/wireframes 1.png)
+
 </details>
+
 
 # Features
 
@@ -34,14 +37,18 @@ varfor denna del?
 html och css validator
 
 * Css <https://jigsaw.w3.org/css-validator/validator>
-* html
+* html 
 * html sign <https://validator.w3.org/nu/#textarea>
 link pa resultat
 accessibility lighhthouse
-vilka browsers har denna sida provats på`?
-mobil och ipad
-am i responsive
-bugs?
+
+### Browser testing
+The website was tested on Google chrome, Safari and Opera.
+
+### Device testing
+Device testing was done using responsinator and also using a personal iphone and ipad.
+### Form testing
+The forms were tested to make sure that all information was required.
 
 # Technologies Used
 * Html and CSS
@@ -51,7 +58,7 @@ bugs?
 * Pexels
 * W3c schools
 * Fontawesome
-* Am i responsive
+* Responsinator
 * Browser dev tools
 * Codeaywhere
 * Vscode
